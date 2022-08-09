@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #fafafa;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: #ff61241f 0.5px solid;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+    
+}
+header.sticky{
+    padding: 5px 100px;
+    background-color:green;
+}
+header .icon{
+   position: relative;
+   font-weight: 700;
+   color: rgb(250, 27, 27);
+   text-decoration: none;
+   font-size: 2em;
+   text-transform: uppercase;
+   Letter-spacing: 2px;
+   transition: 1.9s;
+}
+header ul{
+position: relative;
+display: flex;
+justify-content:center;
+align-items: center;
+    
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+   margin: 0 15px;
+   text-decoration: none;
+   color: #fff;
+   Letter-spacing: 2px;
+   font-weight: 500px;
+   transition: 0.6s;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background:url(bumi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header.stcky.icon
+header.stcky ul li a{
+    color: rgb(220, 16, 16);
+
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:3% auto;
+	background:rgb(255, 255, 255);
+	padding:1px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:45px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #f9510f1f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:#777;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:rgb(0, 0, 0);
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:rgb(0, 0, 0);
+	font-size: 15;
+}
+
+.full-page{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fafafa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100000;
+	
+}
